@@ -1,4 +1,4 @@
-//`include "and_gate.v"
+`include "and_gate.v"
 
 module and_gate_tb;
 reg a,b;
