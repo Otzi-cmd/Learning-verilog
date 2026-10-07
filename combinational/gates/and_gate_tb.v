@@ -1,4 +1,4 @@
-//`include "and_gate.v"
+`include "and_gate.v"
 
 module and_gate_tb;
 reg a,b;
@@ -16,7 +16,3 @@ initial begin
 end
 
 endmodule
-
-
-// IF THE `inlcude "xyz.v" IS IN THE CODE THEN TYPE iverilog "-o sim xyz_tb.v" IN THE TERMINAL AND THEN 'vvp sim'
-// IF THE `inlcude "xyz.v" IS NOT IN THE CODE THEN TYPE iverilog "-o sim xyz.v xyz_tb.v" IN THE TERMINAL AND THEN 'vvp sim'
