@@ -1,10 +1,17 @@
-module mux_4x1 (input s0,s1,i0,i1,i2,i3, output y);
+module mux_4x1 (
+    input [1:0]s, [3:0]i, 
+    output reg y
+);
 
-    assign w1 = (~s0) & (~s1) & (i0);
-    assign w2 = (~s0) & (s1) & (i1);
-    assign w3 = (s0) & (~s1) & (i2);
-    assign w4 = (s0) & (s1) & (i3);
+always@(*) begin
+    case (s)
+        2'b00: y = i[0];
+        2'b01: y = i[1];
+        2'b10: y = i[2];
+        2'b11: y = i[3];
+        default: y = 1'bx;
+    endcase
 
-    assign y = w1 | w2 | w3 | w4 ;
-
+end
+    
 endmodule
