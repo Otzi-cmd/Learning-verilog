@@ -1,4 +1,4 @@
-# Encoder
+# Decoder
 This folder contains Verilog implementations and testbench for 2:4 decoder.
 
 ## Simulation
