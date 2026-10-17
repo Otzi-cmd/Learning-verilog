@@ -5,7 +5,7 @@ module mux_4x1_tb;
 reg s0, s1, i0, i1, i2, i3;
 wire y;
 
-mux_2x1 uut(
+mux_4x1 uut(
     .s0(s0),
     .s1(s1),
     .i0(i0),
