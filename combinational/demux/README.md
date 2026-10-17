@@ -1,5 +1,5 @@
 # Demultiplexers
-This folder contains Verilog implementations and testbenches for 1:2 demulitplexer.
+This folder contains Verilog implementation and testbench for 1:2 demulitplexer.
 
 ## Simulation
 The testbenches were simulated using Icarus Verilog.
