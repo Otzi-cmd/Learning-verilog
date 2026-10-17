@@ -1,5 +1,5 @@
 # Encoder
-This folder contains Verilog implementations and testbenches for 4:2 encoder.
+This folder contains Verilog implementations and testbench for 4:2 encoder.
 
 ## Simulation
 The testbenches were simulated using Icarus Verilog.
