@@ -1,4 +1,4 @@
-module mux_2x1 (input s0,s1,i0,i1,i2,i3, output y);
+module mux_4x1 (input s0,s1,i0,i1,i2,i3, output y);
 
     assign w1 = (~s0) & (~s1) & (i0);
     assign w2 = (~s0) & (s1) & (i1);
