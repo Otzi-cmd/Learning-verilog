@@ -10,7 +10,6 @@ always@(*) begin
         2'b01: y = i[1];
         2'b10: y = i[2];
         2'b11: y = i[3];
-        default: y = 1'bx;
     endcase
 
 end
